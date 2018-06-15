@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import psycopg2
 
 
@@ -37,13 +38,9 @@ def error_day():
     row = c.fetchall()
 
 
-print("Question 1:")
+print("What are the most popular three articles of all time?")
 pop_article()
-print("Question 2:")
+print("Who are the most popular article authors of all time?")
 pop_auth()
-print("Question 3:")
+print("On which days did more than 1% of requests lead to errors?")
 error_day()
-
-
-
-
