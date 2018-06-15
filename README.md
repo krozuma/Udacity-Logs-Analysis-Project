@@ -14,6 +14,8 @@ To download a zipped file of the project, hit the Clone or download button and t
 * [Python 2.7 or higher](https://www.python.org/)
 * [Vagrant](https://www.vagrantup.com/)
 * [VirtualBox](https://www.virtualbox.org/)
+* PostgreSQL
+* psycopg2
 
 ### Installation ###
 1. Install Vagrant and VirtualBox
